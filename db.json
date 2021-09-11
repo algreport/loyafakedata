@@ -2,8 +2,10 @@
   "orders": [
     {
       "id": 1,
-      "phone": "79001234567",
-      "clientId: 1
+      "title": "hello"
     }
-  ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
