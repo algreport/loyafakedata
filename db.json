@@ -3,8 +3,7 @@
     {
       "id": 1,
       "phone": "79001234567",
-      "clientId: 1,
-      "stockId": 1
+      "clientId: 1
     }
   ]
 }
