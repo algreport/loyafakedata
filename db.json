@@ -4,23 +4,27 @@
       "id": 1,
       "phone": "79001234567",
       "clientId: "1",
-      "shippingInfo": [],
-      "paymentInfo": [],
-      "promocodes": [],
-      "products": [],
+      "shippingInfo": [{"id": 1}],
+      "paymentInfo": [{"id": 1}],
+      "promocodes": [{"id": 1}],
+      "products": [{"id": 1}],
       "refinementOption": "Согласуйте все замены и расхождения веса с клиентом. Если не дозвонитесь, отмените строки с расхождением.",
-      "coinsInfo": [],
+      "coinsInfo": [{"id": 1}],
       "comment": "Не большой комментарий по заказу от клиента.",
       "stockId": "1"
-    },
+    }
   ],
-  "clients": [{
-    "id": "1",
-    "phone": "79001234567"
-  },],
-  "pin": [{
-    "phone": "79001234567",
-    "code": "200",
-    "pin": "1234"
-  },]
+  "clients": [
+    {
+      "id": "1",
+      "phone": "79001234567"
+    } 
+  ],
+  "pin": [
+    {
+      "phone": "79001234567",
+      "code": "200",
+      "pin": "1234"
+    }
+  ]
 }
