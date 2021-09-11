@@ -3,7 +3,7 @@
     {
       "id": 1,
       "phone": "79001234567",
-      "clientId: "1",
+      "clientId: 1,
       "shippingInfo": [{"id": 1}],
       "paymentInfo": [{"id": 1}],
       "promocodes": [{"id": 1}],
@@ -16,12 +16,13 @@
   ],
   "clients": [
     {
-      "id": "1",
+      "id": 1,
       "phone": "79001234567"
     } 
   ],
   "pin": [
     {
+      "id": 1,
       "phone": "79001234567",
       "code": "200",
       "pin": "1234"
