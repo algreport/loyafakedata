@@ -1,235 +1,262 @@
 {
-  "orders": [
-    {
-      "id": 1,
-      "phone": "79001234567",
-      "clientId": "1",
-      "shippingInfo": {"methodId":"5f3aaea220302b0039000029","methodChildId":0,"name":"Иван","phone":"7111","address":"Республика Дагестан, Махачкала, ул. Мусы Джалиля дом 1.","date":"15:59 11.03.2021","dateUnix":1615460340,"nearestTime":false,"flat":"","floor":"","entrance":"","addressComment":"","coords":null,"addressLine":""},
-      "paymentInfo": {"methodId":"5a2456916e0588dc48000029"},
-      "promocodes": [{"id": 1}],
-      "products":[
+   "orders":[
       {
-         "id":"5fb7943620302bd445000032",
-         "amount":1,
-         "modifiers":[
+         "id":1,
+         "phone":"79001234567",
+         "clientId":"1",
+         "shippingInfo":{
+            "methodId":"5f3aaea220302b0039000029",
+            "methodChildId":0,
+            "name":"Иван",
+            "phone":"7111",
+            "address":"Республика Дагестан, Махачкала, ул. Мусы Джалиля дом 1.",
+            "date":"15:59 11.03.2021",
+            "dateUnix":1615460340,
+            "nearestTime":false,
+            "flat":"",
+            "floor":"",
+            "entrance":"",
+            "addressComment":"",
+            "coords":null,
+            "addressLine":""
+         },
+         "paymentInfo":{
+            "methodId":"5a2456916e0588dc48000029"
+         },
+         "promocodes":[
+            "ttt",
+            "ddd"
+         ],
+         "products":[
             {
-               "name":"Single",
-               "description":"single",
-               "max":0,
-               "required":false,
-               "single":true,
-               "multiple":true,
-               "externalId":"",
-               "modifierId":"0",
-               "options":[
+               "id":"5fb7943620302bd445000032",
+               "amount":1,
+               "modifiers":[
                   {
-                     "name":"single 1-9 req",
-                     "externalId":"1",
-                     "price":10,
-                     "noAmount":false,
-                     "min":1,
-                     "max":9,
-                     "optionId":"0",
-                     "selectedAmount":1,
-                     "selected":true,
-                     "required":true
-                  }
-               ]
-            },
-            {
-               "name":"Choose 1 req",
-               "description":"choose 1 req",
-               "max":1,
-               "required":true,
-               "single":false,
-               "multiple":false,
-               "externalId":"2",
-               "modifierId":"1",
-               "options":[
-                  {
-                     "name":"opt1",
-                     "externalId":"3",
-                     "price":0,
-                     "noAmount":false,
-                     "min":0,
-                     "max":99,
-                     "optionId":"0",
-                     "selectedAmount":1,
-                     "selected":true,
-                     "required":false
+                     "name":"Single",
+                     "description":"single",
+                     "max":0,
+                     "required":false,
+                     "single":true,
+                     "multiple":true,
+                     "externalId":"",
+                     "modifierId":"0",
+                     "options":[
+                        {
+                           "name":"single 1-9 req",
+                           "externalId":"1",
+                           "price":10,
+                           "noAmount":false,
+                           "min":1,
+                           "max":9,
+                           "optionId":"0",
+                           "selectedAmount":1,
+                           "selected":true,
+                           "required":true
+                        }
+                     ]
                   },
                   {
-                     "name":"opt2",
-                     "externalId":"4",
-                     "price":5,
-                     "noAmount":false,
-                     "min":0,
-                     "max":9,
-                     "optionId":"1",
-                     "selectedAmount":0,
-                     "selected":false,
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "name":"single2",
-               "description":"single2",
-               "max":0,
-               "required":false,
-               "single":true,
-               "multiple":true,
-               "externalId":"",
-               "modifierId":"2",
-               "options":[
+                     "name":"Choose 1 req",
+                     "description":"choose 1 req",
+                     "max":1,
+                     "required":true,
+                     "single":false,
+                     "multiple":false,
+                     "externalId":"2",
+                     "modifierId":"1",
+                     "options":[
+                        {
+                           "name":"opt1",
+                           "externalId":"3",
+                           "price":0,
+                           "noAmount":false,
+                           "min":0,
+                           "max":99,
+                           "optionId":"0",
+                           "selectedAmount":1,
+                           "selected":true,
+                           "required":false
+                        },
+                        {
+                           "name":"opt2",
+                           "externalId":"4",
+                           "price":5,
+                           "noAmount":false,
+                           "min":0,
+                           "max":9,
+                           "optionId":"1",
+                           "selectedAmount":0,
+                           "selected":false,
+                           "required":false
+                        }
+                     ]
+                  },
                   {
                      "name":"single2",
-                     "externalId":"single2",
-                     "price":1,
-                     "noAmount":false,
-                     "min":0,
-                     "max":99,
-                     "optionId":"0",
-                     "selectedAmount":1,
-                     "selected":true,
-                     "required":true
+                     "description":"single2",
+                     "max":0,
+                     "required":false,
+                     "single":true,
+                     "multiple":true,
+                     "externalId":"",
+                     "modifierId":"2",
+                     "options":[
+                        {
+                           "name":"single2",
+                           "externalId":"single2",
+                           "price":1,
+                           "noAmount":false,
+                           "min":0,
+                           "max":99,
+                           "optionId":"0",
+                           "selectedAmount":1,
+                           "selected":true,
+                           "required":true
+                        },
+                        {
+                           "name":"single3",
+                           "externalId":"single3",
+                           "price":2,
+                           "noAmount":true,
+                           "min":0,
+                           "max":1,
+                           "optionId":"1",
+                           "selectedAmount":0,
+                           "selected":true,
+                           "required":true
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":"5fb7943620302bd445000032",
+               "amount":2,
+               "modifiers":[
+                  {
+                     "name":"Single",
+                     "description":"single",
+                     "max":0,
+                     "required":false,
+                     "single":true,
+                     "multiple":true,
+                     "externalId":"",
+                     "modifierId":"0",
+                     "options":[
+                        {
+                           "name":"single 1-9 req",
+                           "externalId":"1",
+                           "price":10,
+                           "noAmount":false,
+                           "min":1,
+                           "max":9,
+                           "optionId":"0",
+                           "selectedAmount":1,
+                           "selected":true,
+                           "required":true
+                        }
+                     ]
                   },
                   {
-                     "name":"single3",
-                     "externalId":"single3",
-                     "price":2,
-                     "noAmount":true,
-                     "min":0,
+                     "name":"Choose 1 req",
+                     "description":"choose 1 req",
                      "max":1,
-                     "optionId":"1",
-                     "selectedAmount":0,
-                     "selected":true,
-                     "required":true
+                     "required":true,
+                     "single":false,
+                     "multiple":false,
+                     "externalId":"2",
+                     "modifierId":"1",
+                     "options":[
+                        {
+                           "name":"opt1",
+                           "externalId":"3",
+                           "price":0,
+                           "noAmount":false,
+                           "min":0,
+                           "max":99,
+                           "optionId":"0",
+                           "selectedAmount":0,
+                           "selected":false,
+                           "required":false
+                        },
+                        {
+                           "name":"opt2",
+                           "externalId":"4",
+                           "price":5,
+                           "noAmount":false,
+                           "min":0,
+                           "max":9,
+                           "optionId":"1",
+                           "selectedAmount":1,
+                           "selected":true,
+                           "required":false
+                        }
+                     ]
+                  },
+                  {
+                     "name":"single2",
+                     "description":"single2",
+                     "max":0,
+                     "required":false,
+                     "single":true,
+                     "multiple":true,
+                     "externalId":"",
+                     "modifierId":"2",
+                     "options":[
+                        {
+                           "name":"single2",
+                           "externalId":"single2",
+                           "price":1,
+                           "noAmount":false,
+                           "min":0,
+                           "max":99,
+                           "optionId":"0",
+                           "selectedAmount":1,
+                           "selected":true,
+                           "required":true
+                        },
+                        {
+                           "name":"single3",
+                           "externalId":"single3",
+                           "price":2,
+                           "noAmount":true,
+                           "min":0,
+                           "max":1,
+                           "optionId":"1",
+                           "selectedAmount":0,
+                           "selected":true,
+                           "required":true
+                        }
+                     ]
                   }
                ]
             }
-         ]
-      },
-      {
-         "id":"5fb7943620302bd445000032",
-         "amount":2,
-         "modifiers":[
-            {
-               "name":"Single",
-               "description":"single",
-               "max":0,
-               "required":false,
-               "single":true,
-               "multiple":true,
-               "externalId":"",
-               "modifierId":"0",
-               "options":[
-                  {
-                     "name":"single 1-9 req",
-                     "externalId":"1",
-                     "price":10,
-                     "noAmount":false,
-                     "min":1,
-                     "max":9,
-                     "optionId":"0",
-                     "selectedAmount":1,
-                     "selected":true,
-                     "required":true
-                  }
-               ]
-            },
-            {
-               "name":"Choose 1 req",
-               "description":"choose 1 req",
-               "max":1,
-               "required":true,
-               "single":false,
-               "multiple":false,
-               "externalId":"2",
-               "modifierId":"1",
-               "options":[
-                  {
-                     "name":"opt1",
-                     "externalId":"3",
-                     "price":0,
-                     "noAmount":false,
-                     "min":0,
-                     "max":99,
-                     "optionId":"0",
-                     "selectedAmount":0,
-                     "selected":false,
-                     "required":false
-                  },
-                  {
-                     "name":"opt2",
-                     "externalId":"4",
-                     "price":5,
-                     "noAmount":false,
-                     "min":0,
-                     "max":9,
-                     "optionId":"1",
-                     "selectedAmount":1,
-                     "selected":true,
-                     "required":false
-                  }
-               ]
-            },
-            {
-               "name":"single2",
-               "description":"single2",
-               "max":0,
-               "required":false,
-               "single":true,
-               "multiple":true,
-               "externalId":"",
-               "modifierId":"2",
-               "options":[
-                  {
-                     "name":"single2",
-                     "externalId":"single2",
-                     "price":1,
-                     "noAmount":false,
-                     "min":0,
-                     "max":99,
-                     "optionId":"0",
-                     "selectedAmount":1,
-                     "selected":true,
-                     "required":true
-                  },
-                  {
-                     "name":"single3",
-                     "externalId":"single3",
-                     "price":2,
-                     "noAmount":true,
-                     "min":0,
-                     "max":1,
-                     "optionId":"1",
-                     "selectedAmount":0,
-                     "selected":true,
-                     "required":true
-                  }
-               ]
-            }
-         ]
+         ],
+         "refinementOption":"Согласуйте все замены и расхождения веса с клиентом. Если не дозвонитесь, отмените строки с расхождением.",
+         "coinsInfo":{
+            "use":true,
+            "amount":10,
+            "presents":[
+               "5eccc51020302b183c00002e",
+               "5eccc52a20302bd842000039"
+            ]
+         },
+         "comment":"Не большой комментарий по заказу от клиента.",
+         "stockId":"5f9adeaf20302bb445000029"
       }
    ],
-      "refinementOption": "Согласуйте все замены и расхождения веса с клиентом. Если не дозвонитесь, отмените строки с расхождением.",
-      "coinsInfo": [{"id": 1}],
-      "comment": "Не большой комментарий по заказу от клиента.",
-      "stockId": '5f9adeaf20302bb445000029'
-    }
-  ],
-  "clients": [
-    {
-      "id": "1",
-      "phone": "79001234567"
-    } 
-  ],
-  "pin": [
-    {
-      "phone": "79001234567",
-      "code": "200",
-      "pin": "1234"
-    }
-  ]
+   "clients":[
+      {
+         "id":"1",
+         "phone":"79001234567"
+      }
+   ],
+   "pin":[
+      {
+         "phone":"79001234567",
+         "code":"200",
+         "pin":"1234"
+      }
+   ]
 }
