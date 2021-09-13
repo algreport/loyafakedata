@@ -22,7 +22,7 @@
          },
          "paymentInfo":{
             "methodId":"5a2456916e0588dc48000029",
-            "methodName":"Картой в приложении",
+            "methodName":"Картой в приложении"
          },
          "productsQty":11,
          "amountOrder":1546.50,
@@ -33,7 +33,7 @@
          "loadingStartAt":"10.09.2021 14:52",
          "stockId":"5f9adeaf20302bb445000029"
       }
-      ],
+   ],
    "orders":[
       {
          "id":"5fbd5a2c20302b4c5e000029",
