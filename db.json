@@ -2,6 +2,42 @@
    "ordersList":[
       {
          "id":"5fbd5a2c20302b4c5e000029",
+         "docNum":"H 099 567 123",
+         "client":"790045610000",
+         "shippingInfo":{
+            "methodId":"5f3aaea220302b0039000029",
+            "methodChildId":0,
+            "name":"Иван",
+            "phone":"7111",
+            "address":"Республика Дагестан, Махачкала, ул. Мусы Джалиля дом 1.",
+            "date":"15:59 11.03.2021",
+            "dateUnix":1615460340,
+            "nearestTime":false,
+            "flat":"",
+            "floor":"4",
+            "codeEntrance":"1234",
+            "entrance":"",
+            "addressComment":"",
+            "coords":null,
+            "addressLine":""
+         },
+         "paymentInfo":{
+            "methodId":"5a2456916e0588dc48000029",
+            "methodName":"Картой в приложении"
+         },
+         "refinementOption":"Согласуйте все замены и расхождения веса с клиентом. Если не дозвонитесь, отмените строки с расхождением.",
+         "productsQty":11,
+         "amountOrder":1546.50,
+         "amountCompleted":1546.50,
+         "comment":"Не большой комментарий по заказу от клиента.",
+         "collectTo":"10.09.2021 14:42",
+         "collectionStatus":"Сборка заказа идет",
+         "loadingStartAt":"10.09.2021 14:52",
+         "stockId":"5f9adeaf20302bb445000029"
+      },
+      {
+         "id":"5fbd5a2c20302b4c5e000030",
+         "docNum":"H 099 567 124",
          "client":"790045610000",
          "shippingInfo":{
             "methodId":"5f3aaea220302b0039000029",
@@ -35,203 +71,4 @@
          "stockId":"5f9adeaf20302bb445000029"
       }
    ],
-   "orders":[
-      {
-         "id":"5fbd5a2c20302b4c5e000029",
-         "phone":"79001234567",
-         "clientId":"1",
-         "shippingInfo":{
-            "methodId":"5f3aaea220302b0039000029",
-            "methodChildId":0,
-            "name":"Иван",
-            "phone":"7111",
-            "address":"Республика Дагестан, Махачкала, ул. Мусы Джалиля дом 1.",
-            "date":"15:59 11.03.2021",
-            "dateUnix":1615460340,
-            "nearestTime":false,
-            "flat":"",
-            "floor":"",
-            "entrance":"",
-            "addressComment":"",
-            "coords":null,
-            "addressLine":""
-         },
-         "paymentInfo":{
-            "methodId":"5a2456916e0588dc48000029"
-         },
-         "promocodes":[
-            "ttt",
-            "ddd"
-         ],
-         "productsQty":11,
-         "products":[
-            {
-               "id":"5fb7943620302bd445000032",
-               "amount":1,
-               "modifiers":[
-                  {
-                     "name":"Single",
-                     "description":"single",
-                     "max":0,
-                     "required":false,
-                     "single":true,
-                     "multiple":true,
-                     "externalId":"",
-                     "modifierId":"0",
-                     "options":[
-                        {
-                           "name":"single 1-9 req",
-                           "externalId":"1",
-                           "price":10,
-                           "noAmount":false,
-                           "min":1,
-                           "max":9,
-                           "optionId":"0",
-                           "selectedAmount":1,
-                           "selected":true,
-                           "required":true
-                        }
-                     ]
-                  },
-                  {
-                     "name":"single2",
-                     "description":"single2",
-                     "max":0,
-                     "required":false,
-                     "single":true,
-                     "multiple":true,
-                     "externalId":"",
-                     "modifierId":"2",
-                     "options":[
-                        {
-                           "name":"single2",
-                           "externalId":"single2",
-                           "price":1,
-                           "noAmount":false,
-                           "min":0,
-                           "max":99,
-                           "optionId":"0",
-                           "selectedAmount":1,
-                           "selected":true,
-                           "required":true
-                        },
-                        {
-                           "name":"single3",
-                           "externalId":"single3",
-                           "price":2,
-                           "noAmount":true,
-                           "min":0,
-                           "max":1,
-                           "optionId":"1",
-                           "selectedAmount":0,
-                           "selected":true,
-                           "required":true
-                        }
-                     ]
-                  }
-               ]
-            },
-            {
-               "id":"5fb7943620302bd445000032",
-               "amount":2,
-               "modifiers":[
-                  {
-                     "name":"Single",
-                     "description":"single",
-                     "max":0,
-                     "required":false,
-                     "single":true,
-                     "multiple":true,
-                     "externalId":"",
-                     "modifierId":"0",
-                     "options":[
-                        {
-                           "name":"single 1-9 req",
-                           "externalId":"1",
-                           "price":10,
-                           "noAmount":false,
-                           "min":1,
-                           "max":9,
-                           "optionId":"0",
-                           "selectedAmount":1,
-                           "selected":true,
-                           "required":true
-                        }
-                     ]
-                  },
-                  {
-                     "name":"single2",
-                     "description":"single2",
-                     "max":0,
-                     "required":false,
-                     "single":true,
-                     "multiple":true,
-                     "externalId":"",
-                     "modifierId":"2",
-                     "options":[
-                        {
-                           "name":"single2",
-                           "externalId":"single2",
-                           "price":1,
-                           "noAmount":false,
-                           "min":0,
-                           "max":99,
-                           "optionId":"0",
-                           "selectedAmount":1,
-                           "selected":true,
-                           "required":true
-                        },
-                        {
-                           "name":"single3",
-                           "externalId":"single3",
-                           "price":2,
-                           "noAmount":true,
-                           "min":0,
-                           "max":1,
-                           "optionId":"1",
-                           "selectedAmount":0,
-                           "selected":true,
-                           "required":true
-                        }
-                     ]
-                  }
-               ]
-            }
-         ],
-         "refinementOption":"Согласуйте все замены и расхождения веса с клиентом. Если не дозвонитесь, отмените строки с расхождением.",
-         "coinsInfo":{
-            "use":true,
-            "amount":10,
-            "presents":[
-               "5eccc51020302b183c00002e",
-               "5eccc52a20302bd842000039"
-            ]
-         },
-         "comment":"Не большой комментарий по заказу от клиента.",
-         "collectTo":"10.09.2021 14:42",
-         "collectionStatus":"Сборка заказа идет",
-         "loadingStartAt":"10.09.2021 14:52",
-         "stockId":"5f9adeaf20302bb445000029"
-      }
-   ],
-   "clients":[
-      {
-         "id":"1",
-         "phone":"79001234567"
-      }
-   ],
-   "pin":[
-      {
-         "phone":"79001234567",
-         "code":"200",
-         "pin":"1234"
-      }
-   ],
-   "hello":[
-      {
-         "id":"79001234567",
-         "code":"200",
-         "pin":"1234"
-      }
-   ]
 }
