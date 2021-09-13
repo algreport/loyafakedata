@@ -1,4 +1,39 @@
 {
+   "ordersList":[
+      {
+         "id":"5fbd5a2c20302b4c5e000029",
+         "client":"790045610000",
+         "shippingInfo":{
+            "methodId":"5f3aaea220302b0039000029",
+            "methodChildId":0,
+            "name":"Иван",
+            "phone":"7111",
+            "address":"Республика Дагестан, Махачкала, ул. Мусы Джалиля дом 1.",
+            "date":"15:59 11.03.2021",
+            "dateUnix":1615460340,
+            "nearestTime":false,
+            "flat":"",
+            "floor":"4",
+            "codeEntrance":"1234",
+            "entrance":"",
+            "addressComment":"",
+            "coords":null,
+            "addressLine":""
+         },
+         "paymentInfo":{
+            "methodId":"5a2456916e0588dc48000029",
+            "methodName":"Картой в приложении",
+         },
+         "productsQty":11,
+         "amountOrder":1546.50,
+         "amountCompleted":1546.50,
+         "comment":"Не большой комментарий по заказу от клиента.",
+         "collectTo":"10.09.2021 14:42",
+         "collectionStatus":"Сборка заказа идет",
+         "loadingStartAt":"10.09.2021 14:52",
+         "stockId":"5f9adeaf20302bb445000029"
+      }
+      ],
    "orders":[
       {
          "id":"5fbd5a2c20302b4c5e000029",
