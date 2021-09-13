@@ -93,42 +93,6 @@
                      ]
                   },
                   {
-                     "name":"Choose 1 req",
-                     "description":"choose 1 req",
-                     "max":1,
-                     "required":true,
-                     "single":false,
-                     "multiple":false,
-                     "externalId":"2",
-                     "modifierId":"1",
-                     "options":[
-                        {
-                           "name":"opt1",
-                           "externalId":"3",
-                           "price":0,
-                           "noAmount":false,
-                           "min":0,
-                           "max":99,
-                           "optionId":"0",
-                           "selectedAmount":1,
-                           "selected":true,
-                           "required":false
-                        },
-                        {
-                           "name":"opt2",
-                           "externalId":"4",
-                           "price":5,
-                           "noAmount":false,
-                           "min":0,
-                           "max":9,
-                           "optionId":"1",
-                           "selectedAmount":0,
-                           "selected":false,
-                           "required":false
-                        }
-                     ]
-                  },
-                  {
                      "name":"single2",
                      "description":"single2",
                      "max":0,
