@@ -5,8 +5,6 @@
          "docNum":"H 099 567 123",
          "client":"790045610000",
          "shippingInfo":{
-            "methodId":"5f3aaea220302b0039000029",
-            "methodChildId":0,
             "name":"Иван",
             "phone":"7111",
             "address":"Республика Дагестан, Махачкала, ул. Мусы Джалиля дом 1.",
@@ -21,10 +19,7 @@
             "coords":null,
             "addressLine":""
          },
-         "paymentInfo":{
-            "methodId":"5a2456916e0588dc48000029",
-            "methodName":"Картой в приложении"
-         },
+         "paymentInfo":"Картой в приложении",
          "refinementOption":"Согласуйте все замены и расхождения веса с клиентом. Если не дозвонитесь, отмените строки с расхождением.",
          "productsQty":11,
          "amountOrder":"1546.50",
@@ -41,8 +36,6 @@
          "docNum":"H 099 567 124",
          "client":"790045610000",
          "shippingInfo":{
-            "methodId":"5f3aaea220302b0039000029",
-            "methodChildId":0,
             "name":"Иван",
             "phone":"7111",
             "address":"Республика Дагестан, Махачкала, ул. Мусы Джалиля дом 1.",
@@ -57,10 +50,7 @@
             "coords":null,
             "addressLine":""
          },
-         "paymentInfo":{
-            "methodId":"5a2456916e0588dc48000029",
-            "methodName":"Картой в приложении"
-         },
+         "paymentInfo":"Картой в приложении",
          "refinementOption":"Согласуйте все замены и расхождения веса с клиентом. Если не дозвонитесь, отмените строки с расхождением.",
          "productsQty":11,
          "amountOrder":"1546.50",
@@ -77,8 +67,6 @@
          "docNum":"H 099 567 125",
          "client":"790045610000",
          "shippingInfo":{
-            "methodId":"5f3aaea220302b0039000029",
-            "methodChildId":0,
             "name":"Иван",
             "phone":"7111",
             "address":"Республика Дагестан, Махачкала, ул. Мусы Джалиля дом 1.",
@@ -93,10 +81,7 @@
             "coords":null,
             "addressLine":""
          },
-         "paymentInfo":{
-            "methodId":"5a2456916e0588dc48000029",
-            "methodName":"Картой в приложении"
-         },
+         "paymentInfo":"Картой в приложении",
          "refinementOption":"Согласуйте все замены и расхождения веса с клиентом. Если не дозвонитесь, отмените строки с расхождением.",
          "productsQty":11,
          "amountOrder":"1546.50",
